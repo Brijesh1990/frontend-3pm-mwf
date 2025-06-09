@@ -1,0 +1,11 @@
+2-what is web servers   ? 
+   
+   web server stored information of users on web clouds There we used web server. 
+
+   examples : 1) google 
+              2) amazon(aws)
+              3) go daddy 
+              4) scalahost 
+              5) hostinger 
+              
+                

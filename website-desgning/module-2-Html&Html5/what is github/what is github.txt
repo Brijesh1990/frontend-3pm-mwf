@@ -1,0 +1,17 @@
+github is an repository systems 
+github is a product of microsoft
+github is used to stored data and 
+github is a microsoft server
+
+step 1: create account on github.com 
+step 2: download github software(gitbash)
+step 3: create a new repository
+step 4: step of commands
+
+        cmd : git init
+              git add .
+              git commit -m '09-06-2025 all data uploaded'
+              git remote add origin copypaste your github url
+              git push -u origin master
+
+       

@@ -1,0 +1,11 @@
+4-what is URL  ?  
+    URL stands for universal resource locator 
+    types of URL : 
+
+    a) absolute URL
+        examples :https://www.tops-int.com/  
+    b) relative URL
+        examples:https://www.tops-int.com/placements  
+    c) hypertext URL
+       examples :https://www.tops-int.com/
+                 <a href="https://www.tops-int.com/">Tops technology</a>   
