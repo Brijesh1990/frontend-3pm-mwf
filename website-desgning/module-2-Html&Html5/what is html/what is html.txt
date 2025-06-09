@@ -1,0 +1,30 @@
+what is html ?
+  html stands for hypertext markup language
+  html first time released in 1986 by tim berner lee 
+  html is used for make a website 
+  html is a case-insenstive language 
+  examples : <html> </html> or <HTML></HTML> or <Html></Html>
+  html is not any language it is a markup language
+
+what is hypertext ? 
+  hypertext meanse redirect one page to another page 
+  examples : <a href='https://www.flipkart.com'>Flipkart</a> 
+ 
+what is markup language ? 
+ 
+  markup language is always enguaged with web broswers or load on web broswers thats why we called html is not language it is a markup language.
+
+
+  example : hypertext.html
+
+
+html structure ?
+
+Note : html structure  or html boiler plate or skelton of html
+
+<html>
+  <head> </head>
+  <body>
+    <h1>Hey i am just used html</h1>
+  </body>
+</html>
