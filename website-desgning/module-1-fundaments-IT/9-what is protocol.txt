@@ -1,0 +1,11 @@
+9-what is protocol   ? 
+  protocol is set a rules in website 
+  types of protocol ? 
+   
+     a) https://www.amazon.in/
+        https://www.onlinesbi.sbi/
+        examples : https(secured)   
+     b) http://www.amazon.in/
+        examples : http(not secured)
+
+        ftp : mime : pop : smtp  
