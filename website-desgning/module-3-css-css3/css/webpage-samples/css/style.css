@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 668px;
+  background: -webkit-linear-gradient(left, #1e8ba2, #d4c1b3);
+  background: -moz-linear-gradient(left, #1e8ba2, #d4c1b3);
+  background: -i-linear-gradient(left, #1e8ba2, #d4c1b3);
+  background: linear-gradient(to right, #1e8ba2, #d4c1b3);
+}
+#circle-header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.circle-logo {
+  width: 30%;
+  height: auto;
+  padding: 15px;
+}
+.circle-logo img {
+  width: 50%;
+  height: auto;
+  animation: 2s heartBeat infinite;
+}
+.circle-nav {
+  width: 50%;
+  height: auto;
+  padding: 15px;
+}
+.circle-nav ul li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+.circle-nav a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  font-size: 20px !important;
+  text-transform: uppercase;
+}
+.circle-account {
+  width: 20%;
+  height: auto;
+  padding: 15px;
+}
+.circle-account .fa-search {
+  font-size: 30px !important;
+  color: white;
+  margin-top: 3%;
+}
+.circle-account button {
+  width: 150px;
+  height: auto;
+  padding: 14px;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  margin-left: 8%;
+  font-size: 18px;
+}
+
+#circle-banner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.banner-txt {
+  width: 50%;
+  height: auto;
+  padding: 45px 25px;
+}
+.banner-img img {
+  width: 100%;
+  height: auto;
+  /* animation: 2s alternate pulse; */
+  animation: 2s infinite pulse;
+}
+.banner-txt h1 {
+  font-size: 65px;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 4px;
+  line-height: 1;
+}
+.banner-txt p {
+  font-size: 18px;
+  color: white;
+  width: 60%;
+}
+.banner-txt button {
+  width: 200px;
+  height: auto;
+  padding: 18px;
+  background-color: #d4c1b3;
+  border-radius: 10px;
+  border: none;
+  margin-left: 0%;
+  font-size: 18px;
+  animation: 2s flash infinite;
+}
