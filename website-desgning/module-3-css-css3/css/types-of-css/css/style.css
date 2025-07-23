@@ -1,0 +1,148 @@
+/* responsive with media query */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: lightgray;
+}
+#header {
+  width: 100%;
+  height: auto;
+  padding: 50px 20px;
+  background-color: white;
+  top: 0;
+  position: sticky;
+}
+
+#nav {
+  width: 100%;
+  height: auto;
+  padding: 10px 20px;
+  background-color: black;
+}
+
+#banner {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding: 200px 20px;
+  background-color: gray;
+  margin-top: 2%;
+}
+
+#content {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 3%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box1,
+.box2 {
+  width: 33%;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px 55px;
+  background-color: black;
+  color: white;
+  margin-top: 3%;
+}
+
+.box3 {
+  width: 20%;
+  height: auto;
+  margin: 0 auto;
+  padding: 15px 15px;
+  background-color: black;
+  color: white;
+  margin-top: 3%;
+}
+.box4 {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  padding: 15px 15px;
+  background-color: black;
+  color: white;
+  margin-top: 3%;
+}
+
+.box4-img {
+  width: 60%;
+  height: auto;
+  background: url('https://img.freepik.com/free-vector/technology-wire-mesh-network-connection-digital-background_1017-28407.jpg?semt=ais_hybrid&w=740')
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#footer {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background-color: black;
+  padding: 45px 15px;
+  margin-top: 5%;
+}
+
+/* screen breakpoint mobile device */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #banner {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 100px 20px;
+    background-color: gray;
+    margin-top: 2%;
+  }
+
+  #content {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 3%;
+    display: block;
+  }
+  .box1,
+  .box2 {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: coral;
+    color: white;
+    margin-top: 3%;
+  }
+
+  .box3 {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    margin-top: 3%;
+  }
+  .box4 {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: blue;
+    color: white;
+    margin-top: 3%;
+  }
+}
+
+/* screen breakpoint tablet device */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+}
+
+/* screen breakpoint laptop device */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* screen breakpoint large device */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+}
